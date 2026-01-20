@@ -81,8 +81,10 @@
     <!-- Revit Neural Renderer Plugin -->
     <section class="project">
         <h2>Revit Neural Real‑Time Photorealistic Renderer (plugin concept) – 2025</h2>
-        <p>A Revit add‑in concept that streams the active viewport into a neural rendering pipeline to produce a photorealistic image in real time. The workflow keeps model edits and camera moves responsive while applying AI‑driven lighting, materials, and atmospheric effects for instant design review and client presentation.</p>
-        <p>Key capabilities include GPU‑accelerated viewport capture, neural style transfer tuned for architectural materials, live denoising with temporal stability, and export of stills or short clips directly from Revit without leaving the modeling context.</p>
+        <p>A Revit add‑in concept that streams the active viewport into a neural rendering pipeline to generate a photorealistic image in real time. The workflow keeps model edits and camera moves responsive while applying AI‑driven lighting, materials, and atmospheric effects for instant design review and client presentation.</p>
+        <p><strong>MVP scope</strong>: viewport capture (DirectX), neural enhancement on a local GPU, temporal stabilization to avoid flicker, and one‑click export of stills or short clips without leaving Revit.</p>
+        <p><strong>Pipeline stages</strong>: viewport capture → material/lighting feature extraction → neural refinement → denoise + temporal consistency → output compositor.</p>
+        <p><strong>Initial roadmap</strong>: prototype plug‑in UI, integrate a lightweight diffusion/renderer model, add quality presets, and ship a closed beta for architectural visualization teams.</p>
     </section>
     <!-- Riad Anza Project -->
     <section class="project">
